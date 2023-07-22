@@ -113,11 +113,10 @@ h3 {
 
 /*about us*/
 
-.about-us {
-    height: 600px;
-    padding-top: 35px;
+.about-us { 
     width: 50%;
     margin: 0 auto;
+    padding-top: 35px;
 }
 
 .about-us-heading {
@@ -142,4 +141,67 @@ h3 {
     margin: 0 auto;
     margin-top: 20px;
     background: url("../images/design-bar.jpg") no-repeat center;
+}
+
+/* newsletter form */
+
+.newsletter-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.newsletter-form {
+    width:50%;
+    margin: 0 auto;
+    padding: 35px 0 35px 0;
+    text-align: center;
+}
+
+.newsletter-form h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.newsletter-text {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.input-newsletter {
+    width: 80%;
+    height: 25px;
+    margin: 10px auto 0 auto;
+    border: 1px solid #52330a;
+    border-radius: 5px;
+    display: block;
+}
+
+.input-newsletter:hover {
+    border-color: #ff852e;
+}
+
+.newsletter-form p { 
+    font-size: 11px;
+    padding: 10px; 
+}
+
+.newsletter-button {
+    text-align: center;
+    font-size: 100%;
+    border-radius: 30px;
+    border: none;
+    padding: 5px 20px;
+    background-color: #ff852e;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.newsletter-button:hover {
+    background-color: #ffff;
+    color: #ff852e;
+    border: solid 1px #ff852e;
 }
