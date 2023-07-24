@@ -205,3 +205,39 @@ h3 {
     color: #ff852e;
     border: solid 1px #ff852e;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+    padding: 5px;
+    background-color: rgb(245, 234, 222);
+}
+
+.footer-container {
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    padding-top: 15px; 
+}
+
+.social-icons li {
+    list-style-type: none;
+    display: inline;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 170%;
+    color: #52330a;
+    margin: 5px 35px 5px 35px;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    margin-top: 15px 0 5px 0;
+    font-weight: 100;
+}
