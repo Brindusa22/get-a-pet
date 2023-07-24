@@ -245,3 +245,23 @@ footer p {
     margin-top: 15px 0 5px 0;
     font-weight: 100;
 }
+
+/* adoptable dogs gallery */
+
+#gallery-heading {
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.dog-grid-container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 0 auto;
+}
+
+
+
+
