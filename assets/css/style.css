@@ -20,14 +20,12 @@ h3 {
 
 header {
     height: 150px;
-    padding: 20px;
     background-color: rgb(245, 234, 222);
 }
 
 #logo {
     width: 30%;
     height: auto;
-    float: left;
 }
 
 /* menu */
@@ -37,7 +35,6 @@ header {
     letter-spacing: 5px;
     display: flex;
     flex-direction: row;
-    float: right;
 }
 
 #menu li {
@@ -52,11 +49,6 @@ header {
 #menu a {
     text-decoration: none;
     color: inherit;
-}
-
-#menu,
-#logo {
-    line-height: 90px;
 }
 
 #menu a:hover {
