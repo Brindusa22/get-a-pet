@@ -75,32 +75,40 @@ header {
     position: absolute;
     color: #ffff;
     bottom: 40%;
-    left: 90px;
-    font-size: 150%;
+    left: 70px;
+    font-size: 180%;
     letter-spacing: 5px;
     width: 500px;
     height: auto;
     padding-top: 70px;
 }
 
-#cover-text h2,
-h3 {
-    line-height: 1, 8;
+#cover-text h2 {
+    line-height: 1.3;
+    text-align: center;
+}
+
+#cover-text .paw-icon {
+    display: none;
 }
 
 #cover-text h2:nth-child(2) {
     text-transform: uppercase;
-    text-align: center;
     line-height: 2;
 }
 
 #cover-text a {
-    color: inherit;
+     color: inherit; 
+     text-decoration: none;
 }
 
 #cover-text a:hover {
     color: #ff852e;
-    text-decoration-thickness: 10px;
+    font-weight: 150%;
+} 
+
+#cover-text a:hover .paw-icon{
+    display: inline;
 }
 
 /*about us*/
