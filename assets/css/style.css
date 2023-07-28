@@ -27,8 +27,7 @@ header {
 }
 
 #logo {
-    width: 30%;
-    height: auto;
+    height: 100%;
 }
 
 /* menu */
@@ -415,7 +414,7 @@ input:focus {
 @media screen and (max-width: 1400px) {
     .form-page img {
         max-width: 55%;
-        max-height: auto;
+        max-height: 100%;
     }
 
 /* for larger to medium screen size from 1300px wide and down */
@@ -434,7 +433,7 @@ input:focus {
 
     .form-page img {
         max-width: 55%;
-        max-height: auto;
+        max-height: 100%;
 
 }
 
@@ -448,36 +447,27 @@ input:focus {
 
     .form-page img {
         max-width: 55%;
-        max-height: auto;
+        max-height: 100%;
 }
     
 /* for larger to medium screen size from 1160px wide and down */
 
 @media screen and (max-width: 1160px) {
-    #menu, #logo {
-        line-height: 0;
-    }
-
-    header {
-        height: 150px;
-    }
-
-    #menu li {
-        margin-top: 30px;
-    }
-
     .form-page {
         margin-top: 30px;
     }
+
+    .form-page img {
+        max-width: 55%;
+        max-height: 100%;
 
 }
 
 /* for medium screen size from 950px wide and down */
 
 @media screen and (max-width: 950px) {
-    #logo {
-        float: none;
-        margin: 0 auto;
+    #menu li{
+        margin: 0 20px;
     }
          
     .video-wrapper {
@@ -486,7 +476,27 @@ input:focus {
         margin-left: 10%;
          }
 
+    .form-page img {
+        max-width: 55%;
+        max-height: 100%;
+    }
+}
 
+/* for medium screen size from 830px wide and down */
+
+@media screen and (max-width: 830px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 25px;
+    }
+    
+    #menu li {
+        margin: 10px 20px 0;
+    }
 }
 
 /* for medium screen size from 880px wide and down */
@@ -511,5 +521,4 @@ input:focus {
         padding: 20px 0 20px 0;
         width: 50%;
     }
-
 }
