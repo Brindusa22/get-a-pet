@@ -535,6 +535,7 @@ input:focus {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 0%;
     }
 
        /* navigation bar styles with dropdown menu */
@@ -550,8 +551,8 @@ input:focus {
 
     nav li {
         color: #ffff;
-        font-size: 120%;
-        font-weight: x-large;
+        font-size: 150%;
+        font-weight: 300%;
         }
 
     .active {
@@ -568,9 +569,18 @@ input:focus {
         display: block;
     }
 
+    #burger-menu {
+        display: none;
+    }
+
+    .nav-toggle i {
+        font-size: 180%;
+        padding-bottom: 10px;
+    }
+
     #menu {
         display: block;
         text-align: center;
     }
-    
+
 }
