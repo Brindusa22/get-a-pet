@@ -522,3 +522,17 @@ input:focus {
         width: 50%;
     }
 }
+
+/* for small screen size from 750px wide and down */
+
+@media screen and (max-width: 750px) {
+    header {
+        position: fixed;
+        z-index: 99; 
+        width: 100%;
+        height: fit-content;
+        box-shadow: 0 2px 5px #a6592e ;
+    }
+
+    
+}
