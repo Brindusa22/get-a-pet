@@ -531,7 +531,27 @@ input:focus {
         z-index: 99; 
         width: 100%;
         height: fit-content;
-        box-shadow: 0 2px 5px #a6592e ;
+        box-shadow: 0 2px 5px #a6592e; 
+        display: block;
+    }
+
+       /* Navigation bar styles with dropdown menu */
+    nav {
+        position: absolute;
+        background-color: rgb(245, 234, 222);
+        box-shadow: 0 2px 5px #a6592e;
+        display: none;
+    }
+    
+    #menu {
+        display: block;
+    }
+
+    #menu li {
+        width: 100vh;
+        padding: 2% 0;
+       
+
     }
 
     
