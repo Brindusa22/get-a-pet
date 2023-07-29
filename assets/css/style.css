@@ -409,6 +409,18 @@ input:focus {
 
 /* media queries */
 
+/* hide burger button and checkbox for screen wider than 750px*/
+
+@media screen and (min-width: 751px) {
+    .nav-toggle i {
+        display: none;
+    }
+
+    header input {
+        display: none;
+    }
+}
+
 /* for larger to medium screen size from 1400px wide and down */
 
 @media screen and (max-width: 1400px) {
@@ -582,5 +594,6 @@ input:focus {
         display: block;
         text-align: center;
     }
-
 }
+
+
