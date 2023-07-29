@@ -532,27 +532,45 @@ input:focus {
         width: 100%;
         height: fit-content;
         box-shadow: 0 2px 5px #a6592e; 
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-       /* Navigation bar styles with dropdown menu */
+       /* navigation bar styles with dropdown menu */
     nav {
         position: absolute;
-        background-color: rgb(245, 234, 222);
+        background-color: rgba(97, 93, 89, 0.8);
         box-shadow: 0 2px 5px #a6592e;
         display: none;
-    }
-    
-    #menu {
-        display: block;
+        top: 100%;
+        width: 100%;
+        height: 420px;
     }
 
+    nav li {
+        color: #ffff;
+        font-size: 120%;
+        font-weight: x-large;
+        }
+
+    .active {
+        border-bottom: none;
+    }
+    
     #menu li {
         width: 100%;
         padding: 2% 0;
-       
+    }
+        /* burger button */
 
+    #burger-menu:checked~nav  {
+        display: block;
     }
 
+    #menu {
+        display: block;
+        text-align: center;
+    }
     
 }
