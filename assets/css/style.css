@@ -575,6 +575,11 @@ input:focus {
         width: 100%;
         padding: 2% 0;
     }
+
+     #menu a:hover {
+        border-bottom: none;
+    }
+
         /* burger button */
 
     #burger-menu:checked~nav  {
