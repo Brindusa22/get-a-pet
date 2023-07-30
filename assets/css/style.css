@@ -9,6 +9,13 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #52330a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
 }
 
 h2,
@@ -344,7 +351,6 @@ iframe {
 .form-page {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100%;
     width: 100%;
 }
@@ -466,7 +472,7 @@ input:focus {
         max-width: 55%;
         max-height: 100%;
 }
-    
+     
 /* for larger to medium screen size from 1160px wide and down */
 
 @media screen and (max-width: 1160px) {
@@ -632,6 +638,10 @@ input:focus {
         margin-top: 130px;
     }
 
+    #gallery-content {
+        margin-top: 200px;
+    }
+
     #hero-image {
        width: 100%;
        overflow: hidden;
@@ -671,17 +681,23 @@ input:focus {
     /* adopt page */
 
     .dog-grid-container {
-            grid-template-columns: 400px;
+        grid-template-columns: 400px;
     }
 
+    #gallery-heading {
+        width: 90%;
+        text-align: center;
+        margin-top: 0 auto;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
 
 }
 
 @media screen and (max-width: 500px) {
 
     .dog-grid-container {
-            grid-template-columns: 300px;
+            grid-template-columns: 280px;
         }
-
 
 }
