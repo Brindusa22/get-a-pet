@@ -225,10 +225,10 @@ footer h3 {
 
 .social-icons a {
     text-decoration: none;
-    font-size: 170%;
+    font-size: 200%;
     color: #52330a;
-    padding: 1.5%;
-    margin: 0 2%;
+    padding: 1rem;
+    margin: 0 2rem;
 }
 
 .social-icons a:hover {
@@ -532,6 +532,7 @@ input:focus {
         width: 70%;
      }
 
+
 }
 
 /* for medium screen size from 880px wide and down */
@@ -654,6 +655,12 @@ input:focus {
 
     #design-bar {
         width: 80%;
+    }
+
+        /* social icons */
+
+    .social-icons a {
+        margin: 0 0.5rem;
     }
 
 
