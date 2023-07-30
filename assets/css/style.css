@@ -74,10 +74,10 @@ header {
     position: absolute;
     color: #ffff;
     bottom: 40%;
-    left: 70px;
-    font-size: 180%;
+    left: 60px;
+    font-size: 190%;
     letter-spacing: 5px;
-    width: 500px;
+    width: 550px;
     height: auto;
     padding-top: 70px;
 }
@@ -429,9 +429,18 @@ input:focus {
         max-height: 100%;
     }
 
+    #cover-text {
+        font-size: 180%;
+        left: 20px;
+        bottom: 5%;
+         }
+   
+} 
+
 /* for larger to medium screen size from 1300px wide and down */
 
 @media screen and (max-width: 1300px) {
+
     #gallery-heading  {
         width: 80%;
         text-align: center;
@@ -452,10 +461,6 @@ input:focus {
 /* for larger to medium screen size from 1240px wide and down */
 
 @media screen and (max-width: 1240px) {
-    #cover-text {
-        left: 20px;
-        bottom: 5%;
-    }
 
     .form-page img {
         max-width: 55%;
@@ -513,6 +518,11 @@ input:focus {
     #menu a:hover {
         border-bottom: none;
     }
+
+    #cover-text {
+        font-size: 160%;
+        width: 450px;
+     }
 }
 
 /* for medium screen size from 880px wide and down */
