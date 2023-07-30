@@ -62,10 +62,10 @@ header {
 /* hero image */
 
 #hero-image {
-    background: rgb(245, 234, 222) url("../images/hero-image.jpg") no-repeat center center/ cover;
+    background: rgb(245, 234, 222) url("../images/hero-image.webp") no-repeat center center/ cover;
     width: 100%;
     height: 600px;
-    position: relative;
+    position: relative
 }
 
 /* cover text for hero image */
@@ -139,7 +139,7 @@ header {
     height: 20px;
     margin: 0 auto;
     margin-top: 20px;
-    background: url("../images/design-bar.jpg") no-repeat center;
+    background: url("../images/design-bar.webp") no-repeat center;
 }
 
 /* newsletter form */
@@ -610,5 +610,3 @@ input:focus {
         text-align: center;
     }
 }
-
-
