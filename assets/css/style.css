@@ -501,6 +501,11 @@ input:focus {
     .newsletter-form {
          width: 100%;
     }
+
+        /* cancel hover effect for grid gallery items for medium and smaller screen size */
+    .gallery-item:hover {
+        border-color: transparent;
+    }
 }
 
 /* for medium screen size from 900px wide and down */
@@ -532,14 +537,14 @@ input:focus {
         width: 70%;
      }
 
-
 }
 
 /* for medium screen size from 880px wide and down */
 
 @media screen and (max-width: 880px) {
+
     .dog-grid-container {
-        grid-template-columns: 400px;
+            grid-template-columns: 300px 300px;
         }
 
     .form-page {
@@ -662,6 +667,21 @@ input:focus {
     .social-icons a {
         margin: 0 0.5rem;
     }
+
+    /* adopt page */
+
+    .dog-grid-container {
+            grid-template-columns: 400px;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .dog-grid-container {
+            grid-template-columns: 300px;
+        }
 
 
 }
