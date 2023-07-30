@@ -562,6 +562,8 @@ input:focus {
         justify-content: center;
         align-items: center;
         padding-bottom: 0%;
+        top: 0;
+        margin: 0;
     }
 
        /* navigation bar styles with dropdown menu */
@@ -608,5 +610,9 @@ input:focus {
     #menu {
         display: block;
         text-align: center;
+    }
+    
+    main {
+        margin-top: 150px;
     }
 }
