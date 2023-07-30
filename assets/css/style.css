@@ -343,15 +343,10 @@ iframe {
 
 /* contact-us form */
 
-.form-page img {
-    max-width: 45%;
-    max-height: 50%;
-}
-
 .form-page {
     display: flex;
     justify-content: center;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -430,10 +425,6 @@ input:focus {
 /* for larger to medium screen size from 1400px wide and down */
 
 @media screen and (max-width: 1400px) {
-    .form-page img {
-        max-width: 55%;
-        max-height: 100%;
-    }
 
     #cover-text {
         font-size: 180%;
@@ -458,32 +449,6 @@ input:focus {
         grid-template-columns: 400px 400px;
     }
 
-    .form-page img {
-        max-width: 55%;
-        max-height: 100%;
-
-}
-
-/* for larger to medium screen size from 1240px wide and down */
-
-@media screen and (max-width: 1240px) {
-
-    .form-page img {
-        max-width: 55%;
-        max-height: 100%;
-}
-     
-/* for larger to medium screen size from 1160px wide and down */
-
-@media screen and (max-width: 1160px) {
-    .form-page {
-        margin-top: 30px;
-    }
-
-    .form-page img {
-        max-width: 55%;
-        max-height: 100%;
-
 }
 
 /* for medium screen size from 992px wide and down */
@@ -498,11 +463,6 @@ input:focus {
         max-height: auto;
         margin-left: 10%;
          }
-
-    .form-page img {
-        max-width: 55%;
-        max-height: 100%;
-    }
 
     .newsletter-form {
          width: 100%;
@@ -553,21 +513,10 @@ input:focus {
             grid-template-columns: 300px 300px;
         }
 
-    .form-page {
+    /* .form-page {
         display: block;
         margin: 0;
-    }  
-
-    .form-page img {
-       min-width: 100%;
-       min-height: auto;
-    }
-    
-    .contact-form {
-        margin: 0 auto;
-        padding: 20px 0 20px 0;
-        width: 50%;
-    }
+    }   */
 }
 
 /* for small screen size from 750px wide and down */
