@@ -344,16 +344,34 @@ iframe {
 /* contact-us form */
 
 .form-page {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: auto;
     width: 100%;
 }
 
+.form-page img {
+    max-width: 100%;
+    max-height: 600px;
+    padding-top: 60px;
+}
+
+.contact-wrapper {
+    max-width: 95%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .contact-form {
-    width: 35%;
+    width: 900px;
+    max-width: 100%;
     padding: 20px;
     height: 100%;
+    margin-top: 20px;
 }
 
 .contact-form h2 {
