@@ -497,6 +497,10 @@ input:focus {
         max-width: 55%;
         max-height: 100%;
     }
+
+    .newsletter-form {
+         width: 100%;
+    }
 }
 
 /* for medium screen size from 900px wide and down */
@@ -527,6 +531,7 @@ input:focus {
     .about-us {
         width: 70%;
      }
+
 }
 
 /* for medium screen size from 880px wide and down */
@@ -650,5 +655,6 @@ input:focus {
     #design-bar {
         width: 80%;
     }
+
 
 }
