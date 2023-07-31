@@ -115,7 +115,7 @@ header {
 
 #cover-text a:hover {
     color: #ff852e;
-    font-weight: 150%;
+    font-weight: bolder;
 } 
 
 #cover-text a:hover .paw-icon{
