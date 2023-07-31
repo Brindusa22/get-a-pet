@@ -644,7 +644,7 @@ input:focus {
         margin: 0 0.5rem;
     }
 
-    /* adopt page */
+        /* adopt page */
 
     .dog-grid-container {
         grid-template-columns: 400px;
@@ -656,6 +656,24 @@ input:focus {
         margin-top: 0 auto;
         padding-left: 10px;
         padding-bottom: 10px;
+    }
+
+        /* contact page  */
+    
+    .form-page {
+        margin-top: 33px;
+    }
+    
+    .contact-column {
+        max-width: 100%;
+    }
+
+    .contact-img-container {
+       padding: 0;
+   }
+
+    .form-container {
+        max-width: 80%;
     }
 
 }
