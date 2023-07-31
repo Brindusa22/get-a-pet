@@ -201,19 +201,19 @@ header {
 
 .newsletter-button {
     text-align: center;
-    font-size: 100%;
+    font-size: 110%;
     border-radius: 30px;
     border: none;
     padding: 5px 20px;
     background-color: #ff852e;
-    color: #ffff;
+    color: #52330a;
     text-transform: uppercase;
     font-size: 15px;
 }
 
 .newsletter-button:hover {
     background-color: #ffff;
-    color: #ff852e;
+    color: #E05D00;
     border: solid 1px #ff852e;
 }
 
