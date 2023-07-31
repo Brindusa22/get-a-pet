@@ -396,18 +396,18 @@ iframe {
 
 .submit-button {
     text-align: center;
-    font-size: 120%;
+    font-size: 130%;
     border-radius: 15px;
     border: 1px solid #52330a;
     padding: 5px 20px;
     background-color: #ff852e;
-    color: #ffff;
+    color: #52330a;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .submit-button:hover {
-    color: #ff852e;
+    color: #E05D00;
     background-color: rgb(245, 234, 222);
 }
 
