@@ -109,22 +109,22 @@ header {
 }
 
 #cover-text a {
-     color: inherit; 
-     text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 #cover-text a:hover {
     color: #ff852e;
     font-weight: bolder;
-} 
+}
 
-#cover-text a:hover .paw-icon{
+#cover-text a:hover .paw-icon {
     display: inline;
 }
 
 /*about us*/
 
-.about-us { 
+.about-us {
     width: 50%;
     margin: 0 auto;
     padding-top: 35px;
@@ -162,7 +162,7 @@ header {
 }
 
 .newsletter-form {
-    width:50%;
+    width: 50%;
     margin: 0 auto;
     padding: 35px 0 35px 0;
     text-align: center;
@@ -194,9 +194,9 @@ header {
     border-color: #ff852e;
 }
 
-.newsletter-form p { 
+.newsletter-form p {
     font-size: 11px;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .newsletter-button {
@@ -227,7 +227,7 @@ footer {
 
 footer h3 {
     font-size: 20px;
-    padding: 16px 0; 
+    padding: 16px 0;
 }
 
 .social-icons li {
@@ -260,10 +260,10 @@ footer p {
     justify-content: center;
     align-items: center;
     height: 150px;
-    width: 100%; 
+    width: 100%;
 }
 
-#gallery-heading > h2 {
+#gallery-heading>h2 {
     letter-spacing: 5px;
     font-size: 150%;
 }
@@ -276,17 +276,17 @@ footer p {
 }
 
 .dog-grid-container {
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 .dog-grid-container {
-    width: 70%; 
+    width: 70%;
     display: grid;
     grid-template-columns: 400px 400px 400px;
     column-gap: 25px;
-    row-gap: 25px; 
+    row-gap: 25px;
 }
 
 .gallery-item {
@@ -296,29 +296,29 @@ footer p {
 
 .gallery-item li {
     list-style-type: none;
-    padding: 5px; 
+    padding: 5px;
 }
 
 .dog-image img {
     border: none;
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
 
-.gallery-item:hover { 
+.gallery-item:hover {
     border-color: #ff852e;
 }
 
 .info-box li {
     text-align: center;
     letter-spacing: 2px;
-    line-height: 18px;  
+    line-height: 18px;
 }
 
-.info-box h3 { 
+.info-box h3 {
     text-align: center;
     padding: 10px;
-    font-size: 24px; 
+    font-size: 24px;
     letter-spacing: 5px;
 }
 
@@ -343,7 +343,7 @@ footer p {
 iframe {
     max-width: 100%;
     max-height: 100%;
-    border: 5px solid #ff852e;    
+    border: 5px solid #ff852e;
 }
 
 /* contact-us page */
@@ -370,10 +370,10 @@ iframe {
 }
 
 .form-container h2 {
-   text-align: center;
-   padding: 20px 0 20px 0;
-   letter-spacing: 5px;
-   font-size: 150%;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    letter-spacing: 5px;
+    font-size: 150%;
 }
 
 .form-container label {
@@ -419,7 +419,7 @@ iframe {
 input:focus {
     padding: 3px;
     font-size: 16px;
-} 
+}
 
 /* media queries */
 
@@ -443,15 +443,15 @@ input:focus {
         font-size: 180%;
         left: 20px;
         bottom: 5%;
-         }
-   
-} 
+    }
+
+}
 
 /* for larger to medium screen size from 1300px wide and down */
 
 @media screen and (max-width: 1300px) {
 
-    #gallery-heading  {
+    #gallery-heading {
         width: 80%;
         text-align: center;
         padding-left: 100px;
@@ -466,21 +466,21 @@ input:focus {
 /* for medium screen size from 992px wide and down */
 
 @media screen and (max-width: 992px) {
-    #menu li{
+    #menu li {
         margin: 0 20px;
     }
-         
+
     .video-wrapper {
         max-width: 80%;
         height: auto;
         margin-left: 10%;
-         }
-
-    .newsletter-form {
-         width: 100%;
     }
 
-        /* cancel hover effect for grid gallery items for medium and smaller screen size */
+    .newsletter-form {
+        width: 100%;
+    }
+
+    /* cancel hover effect for grid gallery items for medium and smaller screen size */
     .gallery-item:hover {
         border-color: transparent;
     }
@@ -497,7 +497,7 @@ input:focus {
         justify-content: center;
         padding-bottom: 25px;
     }
-    
+
     #menu li {
         margin: 10px 20px 0;
     }
@@ -509,13 +509,13 @@ input:focus {
     #cover-text {
         font-size: 160%;
         width: 450px;
-     }
+    }
 
     .about-us {
         width: 70%;
-     }
+    }
 
-     /* contact-us page */
+    /* contact-us page */
 
     .form-page {
         flex-direction: column;
@@ -527,7 +527,7 @@ input:focus {
 
     .form-container {
         padding-bottom: 35px;
-    } 
+    }
 
 }
 
@@ -536,8 +536,8 @@ input:focus {
 @media screen and (max-width: 880px) {
 
     .dog-grid-container {
-            grid-template-columns: 300px 300px;
-        }
+        grid-template-columns: 300px 300px;
+    }
 }
 
 /* for small screen size from 750px wide and down */
@@ -545,10 +545,10 @@ input:focus {
 @media screen and (max-width: 750px) {
     header {
         position: fixed;
-        z-index: 99; 
+        z-index: 99;
         width: 100%;
         height: fit-content;
-        box-shadow: 0 2px 5px #a6592e; 
+        box-shadow: 0 2px 5px #a6592e;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -557,7 +557,7 @@ input:focus {
         margin: 0;
     }
 
-       /* navigation bar styles with dropdown menu */
+    /* navigation bar styles with dropdown menu */
     nav {
         position: absolute;
         background-color: rgba(97, 93, 89, 0.8);
@@ -576,15 +576,15 @@ input:focus {
     .active {
         border-bottom: 3px solid #ffff;
     }
-    
+
     #menu li {
         width: 100%;
         padding: 2% 0;
     }
 
-        /* burger button */
+    /* burger button */
 
-    #burger-menu:checked~nav  {
+    #burger-menu:checked~nav {
         display: block;
     }
 
@@ -601,8 +601,8 @@ input:focus {
         display: block;
         text-align: center;
     }
-    
-         /* hero image and cover text*/
+
+    /* hero image and cover text*/
     main {
         margin-top: 130px;
     }
@@ -612,8 +612,8 @@ input:focus {
     }
 
     #hero-image {
-       width: 100%;
-       overflow: hidden;
+        width: 100%;
+        overflow: hidden;
     }
 
     #cover-text {
@@ -621,17 +621,18 @@ input:focus {
         width: 250px;
         bottom: 4%;
     }
-        /* remove hover effect from cover-text for small screen size */
+
+    /* remove hover effect from cover-text for small screen size */
     #cover-text a:hover {
         color: #ffff;
         border-bottom: none;
     }
-    
+
     #cover-text a:hover .paw-icon {
         display: none;
     }
 
-        /* about us section */
+    /* about us section */
 
     .about-us {
         width: 80%;
@@ -641,13 +642,13 @@ input:focus {
         width: 80%;
     }
 
-        /* social icons */
+    /* social icons */
 
     .social-icons a {
         margin: 0 0.5rem;
     }
 
-        /* adopt page */
+    /* adopt page */
 
     .dog-grid-container {
         grid-template-columns: 400px;
@@ -660,19 +661,19 @@ input:focus {
         padding-bottom: 10px;
     }
 
-        /* contact page  */
-    
+    /* contact page  */
+
     .form-page {
         margin-top: 33px;
     }
-    
+
     .contact-column {
         max-width: 100%;
     }
 
     .contact-img-container {
-       padding: 0;
-   }
+        padding: 0;
+    }
 
     .form-container {
         max-width: 80%;
@@ -683,7 +684,7 @@ input:focus {
 @media screen and (max-width: 500px) {
 
     .dog-grid-container {
-            grid-template-columns: 280px;
-        }
+        grid-template-columns: 280px;
+    }
 
 }
