@@ -511,6 +511,20 @@ input:focus {
         width: 70%;
      }
 
+     /* contact-us page */
+
+    .form-page {
+        flex-direction: column;
+    }
+
+    .contact-column {
+        max-width: 80%;
+    }
+
+    .form-container {
+        padding-bottom: 35px;
+    } 
+
 }
 
 /* for medium screen size from 880px wide and down */
@@ -520,11 +534,6 @@ input:focus {
     .dog-grid-container {
             grid-template-columns: 300px 300px;
         }
-
-    /* .form-page {
-        display: block;
-        margin: 0;
-    }   */
 }
 
 /* for small screen size from 750px wide and down */
