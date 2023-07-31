@@ -33,10 +33,6 @@ header {
     align-items: center;
 }
 
-#logo {
-    height: 100%;
-}
-
 #logo img {
     width: 100%;
     height: auto;
