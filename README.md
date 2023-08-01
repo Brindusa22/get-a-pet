@@ -1,39 +1,95 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Get A Pet
 
-Welcome,
+Welcome to [Get A Pet dog adoption](https://brindusa22.github.io/get-a-pet/index.html) website! This site hosts the page of a private dog shelter, commited to save dogs from the streets or abusive environments. Its mission is to provide each rescued four legged furry friend with a forever loving home through adoption. You can see details about the shelter and subscribe to its newsletter to receive updated news, on the first page. You can meet the lovely available dogs waiting for their new families, as well as a heartwarming video of successful adoptions, on the [*"Adopt"*](https://brindusa22.github.io/get-a-pet/adopt.html) page. Finally you can become a part of this journey and get in touch with the shelter on the [*"Contact Us"*](https://brindusa22.github.io/get-a-pet/contact-us.html) page.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Design](assets/readme_images/responsive_design.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Mockup
+*** 
 
-## Codeanywhere Reminders
+The mockup for this site was created with [Balsamiq Wireframes](https://balsamiq.com/wireframes/).
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![Mockup screenshot](assets/readme_images/balsamiq.png)
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Layout and Design
+***
 
-`http_server`
+* The fonts I have used are  *Montserrat* for the headings and *Roboto* for the paragraphs and the rest of the elements. Their compatibility was checked with [Fontpair](https://www.fontpair.co/all).
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* I have chosen to use four colors throughout my entire project: a dark brown for the text (#52330a), orange (#ff852e) and a lighter brown for icons (#a6592e), buttons and hover effects, and a pale pastel pink for backgrounds rgb(245, 234, 222). All the colors used were checked with the contrast checker website [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure a very good contrast ratio and therefore provide a good readability and accessibility.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* The design of the site was intended to be simple and clean but at the same time includes patterns such as repetitive icons, interchangeable colors for the hover-over effect and the centered position of the elements on all the pages, that create consistency and allow the user to navigate intuitively. The header and the footer are present on all pages and have the same design and colors.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+### Logo
+ The logo of the site was designed with [Canva](https://www.canva.com/design/DAFqTTjRUH4/PY4jYRVwv6xeJcIdyLgqqA/edit).
+I have used the same fonts *Montserrat* and *Roboto*, all the four colors used in the project and a combination of elements and patterns, such as small paws, that are present throughout the enire project to create visual consistency.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Logo represented by a dog, small paws and the name of the site](assets/readme_images/logo.png)  
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
----
+### Images and Icons
 
-Happy coding!
+* All the images were taken from [Pexels](https://www.pexels.com/search/dogs/) and converted to .webp format using [Cloudconvert](https://cloudconvert.com/).
+
+* The icons were taken from [Fontawesome](https://fontawesome.com/) and their color was customized to match my layout design.
+* The *Favicon* was created with *Canva*. I then have made its background transparent with [Png Transparency Creator](https://onlinepngtools.com/create-transparent-png) to make it stand out more on the tab and finally converted with [Favicon Generator](https://favicon.io/favicon-generator/#google_vignette). Again, I have chosen the orange paw to create a repetitive pattern and to enhance consistency and a user friendly design.
+
+    ![Orange Paw Favicon](assets/readme_images//favicon.png)
+    
+
+
+## Features
+***
+
+### Existing Features
+
+- Navigation Bar:
+  
+  ![Screenshot of navigation bar](assets/readme_images/logo_and_navbar.png)
+   * By clicking the *Logo* the user will pe taken to the *Home* page.
+  
+   * The Navigation Bar is present on all the pages to help the user navigate easily. The links have a bottom border when hovered over to give the user a visual hint.
+  
+   * The Navigation Bar is fully responsive. It changes its layout according to the size of the device. On medium screens the navigation links go under the logo moving together at the center of the page. On smaller screens the navigation links collaps into a burger button. When clicked, it displays the navigation links that stack on top of each other on a semi-trasparent background that has a seethrough effect and alowes the user to still see the general layout of the page:
+  
+      ![Navigation links for mobile](assets/readme_images/navlinks_mobile.png)
+  
+- Hero Image and Cover Text:
+
+    ![Hero Image and Cover Text Screenshot](assets/readme_images/hero_img.png)
+    
+    * The hero image has the purpose capture the attention of the visitors, to create an emotional impact and connection and convey compassion for the abandoned dogs and creates a friendly and welcoming environment. At the same time it reveals the main purpose of the website:the adoption of dogs.
+  
+    * The overlaying text has a strong, emotional message and it also includes a **Call to Action** phrase. *SAVE A LIFE!* is actually a clickable link that takes the visitor on the *Adopt* page, where the available dogs are showcased. The clikable link has also a visual hint, it is underlined and it chages the color and has a paw icon when hovered over. 
+
+    * For medium and smaller screens the cover text moves to the bottom of the hero image and reduces its font-size to maintain a clean and proportional aspect of the image. Also, for these screen sizes the hover-over effect is canceled since the user no longer uses a mouse.
+
+
+- About-us Section:
+  
+    ![About us section screenshot](assets/readme_images/about_us_section.png)
+    
+    * This section is intended to briefly present to story of the shelter and its mission in two separate paragraphs each of them introduced by an orange paw to create consistency and visual clues.
+  
+    * The *Design Bar* that follows the about us section was created from the hero image. It is intended to create continuity, symmetry and at the same time to act like a horizontal rule and separate the next section which is the *Newsletter* section.
+  
+    * The *Newsletter* section is an interactive section where the visitor is encouraged to subscribe to receive the latest news about dogs and events. The email field will convey an error message if sumbmitted empty or with an invalid property.
+
+
+- Footer: 
+
+    ![Footer screenshot](assets/readme_images/social_media.png)
+
+    * The footer includes the three social media links that the shelter uses.
+  
+    * The icons change their color when hovered over to convey a visual hint and encourage the user to click them. The links open into a separate tab.
+  
+    * A copyright paragraph was included.
+
+
+- Dog Grid Gallery:
+
+    ![Dog gallery screenshot](assets/readme_images/dog_gallery.png)
