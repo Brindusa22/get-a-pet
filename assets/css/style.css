@@ -548,8 +548,8 @@ iframe {
 
     /* headings */
 
-    h2 {
-        font-size: 25px;
+    .about-us-heading, #gallery-heading>h2, .video-wrapper h2, .form-container h2 {
+        font-size: 24px;
     }
 
     .newsletter-form h3 {
