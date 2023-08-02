@@ -692,6 +692,10 @@ iframe {
         max-width: 100%;
     }
 
+    .contact-column img {
+        border-radius: 0;
+    }
+
     .contact-img-container {
         padding: 0;
     }
