@@ -41,7 +41,7 @@ header {
 /* menu */
 
 #menu {
-    font-size: 150%;
+    font-size: 28px;
     letter-spacing: 5px;
     display: flex;
     flex-direction: row;
@@ -51,7 +51,6 @@ header {
     list-style-type: none;
     margin: 0 30px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
 }
 
 #menu a {
@@ -129,12 +128,12 @@ header {
     padding-bottom: 15px;
     text-align: center;
     line-height: 50px;
-    font-size: 150%;
+    font-size: 28px;
     letter-spacing: 5px;
 }
 
 .about-us p {
-    font-size: 110%;
+    font-size: 19px;
     letter-spacing: 2px;
     line-height: 30px;
     text-align: center;
