@@ -151,7 +151,7 @@ header {
 /* newsletter form */
 
 .newsletter-container {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -164,20 +164,20 @@ header {
 
 .newsletter-form h3 {
     text-align: center;
-    text-transform: uppercase;
-    font-size: small;
     margin-bottom: 20px;
-    letter-spacing: 1px;
+    font-size: 22px;
+    letter-spacing: 4px;
 }
 
 .newsletter-text {
-    font-size: 12px;
-    letter-spacing: 1px;
+    font-size: 17px;
+    letter-spacing: 2px;
 }
 
 .input-newsletter {
     width: 80%;
-    height: 25px;
+    height: 30px;
+    font-size: 16px;
     margin: 10px auto 0 auto;
     border: 1px solid #52330a;
     border-radius: 5px;
@@ -186,22 +186,22 @@ header {
 
 .input-newsletter:hover {
     border-color: #ff852e;
+    background-color: rgb(245, 234, 222);
 }
 
 .newsletter-form p {
-    font-size: 11px;
+    font-size: 16px;
     padding: 10px;
 }
 
 .newsletter-button {
     text-align: center;
-    font-size: 110%;
     border-radius: 30px;
     border: none;
     padding: 5px 20px;
     background-color: #ff852e;
     color: #52330a;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .newsletter-button:hover {
