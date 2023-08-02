@@ -564,16 +564,15 @@ iframe {
         display: none;
         top: 100%;
         width: 100%;
-        height: 265px;
+        height: 230px;
     }
 
     nav li {
         color: #ffff;
-        margin: 10px;
     }
 
     #menu a {
-        font-size: 33px;
+        font-size: 30px;
     }
 
     .active {
@@ -583,6 +582,7 @@ iframe {
     #menu li {
         width: 100%;
         padding: 2% 0;
+        margin: 10px;
     }
 
     /* burger button */
