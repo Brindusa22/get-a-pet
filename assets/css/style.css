@@ -427,6 +427,17 @@ iframe {
     }
 }
 
+/* for larger to medium screen size from 1450px wide and down */
+
+@media screen and (max-width: 1450px){
+
+    #gallery-heading {
+            width: 80%;
+            text-align: center;
+            padding-left: 100px;
+        }
+}
+
 /* for larger to medium screen size from 1400px wide and down */
 
 @media screen and (max-width: 1400px) {
