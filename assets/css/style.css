@@ -546,6 +546,16 @@ iframe {
         margin: 0;
     }
 
+    /* headings */
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .newsletter-form h3 {
+        font-size: 20px;
+    }
+
     /* navigation bar styles with dropdown menu */
     nav {
         position: absolute;
