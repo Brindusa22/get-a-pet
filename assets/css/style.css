@@ -176,11 +176,11 @@ header {
 
 .input-newsletter {
     width: 80%;
-    height: 30px;
+    height: 33px;
     font-size: 16px;
     margin: 10px auto 0 auto;
     border: 1px solid #52330a;
-    border-radius: 5px;
+    border-radius: 6px;
     display: block;
 }
 
@@ -197,11 +197,12 @@ header {
 .newsletter-button {
     text-align: center;
     border-radius: 30px;
-    border: none;
+    border: 1px solid #52330a;
     padding: 5px 20px;
     background-color: #ff852e;
     color: #52330a;
     font-size: 20px;
+    height: 34px;
 }
 
 .newsletter-button:hover {
@@ -360,6 +361,7 @@ iframe {
 .contact-column img {
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
 .form-container h2 {
@@ -376,9 +378,10 @@ iframe {
 
 .text-input {
     width: 100%;
-    height: 30px;
+    height: 33px;
     font-size: 17px;
     border: 1px solid #52330a;
+    border-radius: 6px;
     background-color: transparent;
     margin: 10px 0 20px 0;
 }
@@ -396,12 +399,12 @@ iframe {
 .submit-button {
     text-align: center;
     font-size: 25px;
-    border-radius: 15px;
+    border-radius: 30px;
     border: 1px solid #52330a;
     background-color: #ff852e;
     color: #52330a;
     letter-spacing: 2px;
-    height: 33px;
+    height: 34px;
 }
 
 .submit-button:hover {
