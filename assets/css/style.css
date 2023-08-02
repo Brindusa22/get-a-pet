@@ -552,6 +552,10 @@ iframe {
         font-size: 24px;
     }
 
+    .form-container h2 {
+        padding-bottom: 30px;
+    }
+
     .newsletter-form h3 {
         font-size: 20px;
     }
