@@ -133,3 +133,11 @@ I have used the same fonts *Montserrat* and *Roboto*, as well as all the four co
   * A separate page for each dog, which opens in a separate tab when clicking on the photo, that gives more details about each dog and presents its story, and also offers the possibility to send the request for adoption directy on that particular page.
   
   * Being an imaginary shelter, I have not provided any address, but in a real life situation, I would include the address with embeded google maps, as well as the visiting program and a phone number. 
+
+
+## Edits
+***
+
+  * During the development of this project I have made some changes in the approach of the implementation of my layout ideas. In the begining I have used the float property for the header and the contact page, but as the work on my project was advancing, I have discovered that this approach was tedious and unproductive, for what I was trying to achieve, so I have changed it, using the flexbox model. This enabled me to obtain easier the desired result and to be able to create the layout changes for the responsive design effortless. 
+  
+  * During the entire project I have played around with different layout options, experimenting and changing the style of some elements, including the font-size, or the size of the input elements, in order to improve the design and the accessibility.  Whenever I have made such a change, I was always aware of the consistency and symmetry of my layout and I have implemented that change to all the similar elements, to maintain the harmony of the site. All the changes can be tracked in my commit history.  
