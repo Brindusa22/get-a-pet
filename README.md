@@ -98,3 +98,18 @@ I have used the same fonts *Montserrat* and *Roboto*, as well as all the four co
 - Dog Grid Gallery:
 
     ![Dog gallery screenshot](assets/readme_images/dog_gallery.png)
+
+    * To showcase the available dogs I have used a grid layout that keeps the structure of the page neat, symmetric and well orderd and also facilitates the responsive design. For large screen size the page displays three columns, for medium screens two and finally, for smaller screens the images are ordered into only one column. 
+  
+    * Each image has an information box below it, that contains important information about the dogs, such as name, age, sex, weight, breed and personality.These are introduced by suggestive icons, for readability, to help the user find the information quickly without having to read, for aesthetic reasones, to reduce space, but also to create a sense of familiarity and happiness.
+  
+    * Each grid item is emphasized by an orange border when hovered over.
+  
+- Happy stories youtube video:
+  
+  ![Screenshot of the youtube video](assets/readme_images/video.png)
+
+    * Below the availale dogs, there is a section with an emotional youtube video, presenting the priceless reaction of greateful adopted dogs together with their new happy and loving family. Including this happy stories video, with a joyful music backgroung when played, I wanted to create a sense of positivity and make an emotional appeal to the visitors of the site and encourage them to adopt one of the dogs from the shelter.
+  
+    * I have added an orange border to the video to make its design similar to the grid items,which have the same border when hovered over. What I also found to be a nice touch is that the subtitles from the video have also orange in addition to white and this was a nice coincidence that makes the video match not only to the content of the page, but also to its design.
+
