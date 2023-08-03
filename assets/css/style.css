@@ -206,7 +206,7 @@ header {
 }
 
 .newsletter-button:hover {
-    background-color: #ffff;
+    background-color: rgb(245, 234, 222);
     color: #E05D00;
     border: solid 1px #ff852e;
 }
