@@ -112,4 +112,16 @@ I have used the same fonts *Montserrat* and *Roboto*, as well as all the four co
     * Below the availale dogs, there is a section with an emotional youtube video, presenting the priceless reaction of greateful adopted dogs together with their new happy and loving family. Including this happy stories video, with a joyful music backgroung when played, I wanted to create a sense of positivity and make an emotional appeal to the visitors of the site and encourage them to adopt one of the dogs from the shelter.
   
     * I have added an orange border to the video to make its design similar to the grid items,which have the same border when hovered over. What I also found to be a nice touch is that the subtitles from the video have also orange in addition to white and this was a nice coincidence that makes the video match not only to the content of the page, but also to its design.
+  
+- Contact-Us page:
+  
+  ![Screenshot of contact-us page](assets/readme_images/contact_page.png)
+
+    * This page conatins a suggestive picture and a contact form. The input fields as well as the submit button change their border and background color when hovered hover to match the main colors of the layout for consistency. All elements in the form have the same width including the submit button, because I wanted to give a uniform and sleek appearance to the form. At the same time, emphasizing the submit button, makes it more visible, more accessible and may encourage the visitor to actually use the form.
+  
+    * All the input elements on the page, as well as the picture have a border-radius applied, for visual cohesion and to create a smoother appearence and a fiendly environment.
+   
+    * This page is responsive as well and changes its layout to make the form more visible and accessible, maintaining also the important role of the picture and the message it conveys:
+
+         ![Screenshot of contact-us page on smaller devices](assets/readme_images/contact_page_responsive.png)
 
