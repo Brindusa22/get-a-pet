@@ -125,3 +125,11 @@ I have used the same fonts *Montserrat* and *Roboto*, as well as all the four co
 
          ![Screenshot of contact-us page on smaller devices](assets/readme_images/contact_page_responsive.png)
 
+
+### Future Features 
+
+  * A page for donations with the possibility to choose between single or multiple donations and the frequency of donations (if applicable), or even the possibility to virtually adopt a particular dog and cover the expenses for its care, until it is actually adopted. 
+  
+  * A separate page for each dog, which opens in a separate tab when clicking on the photo, that gives more details about each dog and presents its story, and also offers the possibility to send the request for adoption directy on that particular page.
+  
+  * Being an imaginary shelter, I have not provided any address, but in a real life situation, I would include the address with embeded google maps, as well as the visiting program and a phone number. 
