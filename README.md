@@ -54,7 +54,7 @@ I have used the same fonts *Montserrat* and *Roboto*, as well as all the four co
   
    * The Navigation Bar is present on all the pages to help the user navigate easily. The links have a bottom border when hovered over to give the user a visual hint.
   
-   * The Navigation Bar is fully responsive. It changes its layout according to the size of the device. On medium screens the navigation links go under the logo moving together at the center of the page. On smaller screens the navigation links collaps into a burger button. When clicked, it displays the navigation links that stack on top of each other on a semi-trasparent background that has a seethrough effect and alowes the user to still see the general layout of the page:
+   * The Navigation Bar is fully responsive. It changes its layout according to the size of the device. On medium screens the navigation links go under the logo moving together at the center of the page. On smaller screens the navigation links collaps into a burger button. When clicked, it displays the navigation links that stack on top of each other on a semi-trasparent background that has a seethrough effect and allows the user to still see the general layout of the page:
   
       ![Navigation links for tablet](assets/readme_images/navbar_tablet.png)
       ![Navigation links for mobile](assets/readme_images/navbar_mobile.png)
@@ -64,7 +64,7 @@ I have used the same fonts *Montserrat* and *Roboto*, as well as all the four co
 
     ![Hero Image and Cover Text Screenshot](assets/readme_images/hero_img.png)
     
-    * The hero image has the purpose to capture the attention of the visitors, to create emotional impact and connection and to convey compassion for the abandoned dogs. It creates a friendly and welcoming environment. At the same time it reveals the main purpose of the website:the adoption of dogs.
+    * This hero image has the purpose to capture the attention of the visitors, to create emotional impact and connection and to convey compassion for the abandoned dogs. It creates a friendly and welcoming environment. At the same time it reveals the main purpose of the website:the adoption of dogs.
   
     * The overlaying text has a strong, emotional message and it also includes a **Call to Action** phrase. *SAVE A LIFE!*  is actually a clickable link that takes the visitor on the *Adopt* page, where the available dogs are showcased. The clikable link has also a visual hint, it is underlined and when hovered over, the color changes to orange and a paw icon appears. 
   
@@ -79,7 +79,7 @@ I have used the same fonts *Montserrat* and *Roboto*, as well as all the four co
     
     * This section is intended to briefly present to story of the shelter and its mission in two separate paragraphs, each of them introduced by an orange paw to create consistency and visual clues.
   
-    * The *Design Bar* that follows the about us section was created from the hero image. By repeatig a small part from the hero image, I wanted to convey a sense of unity, symmetry and conection between the about-us story and the image. At the same time it acts like a horizontal rule and separates the about-us section from the *Newsletter* section.
+    * The *Design Bar* that follows the about us section was created from the hero image. By repeatig a small part of the hero image, I wanted to convey a sense of unity, symmetry and conection between the about-us story and the image. At the same time it acts like a horizontal rule and separates the about-us section from the *Newsletter* section.
   
     * The *Newsletter* section is an interactive section where the visitor is encouraged to subscribe to receive the latest news about dogs and events. The email field will convey an error message if sumbmitted empty or with an invalid property.
 
@@ -111,7 +111,7 @@ I have used the same fonts *Montserrat* and *Roboto*, as well as all the four co
 
     * Below the availale dogs, there is a section with an emotional youtube video, presenting the priceless reaction of greateful adopted dogs together with their new happy and loving family. Including this happy stories video, with a joyful music backgroung when played, I wanted to create a sense of positivity and make an emotional appeal to the visitors of the site and encourage them to adopt one of the dogs from the shelter.
   
-    * I have added an orange border to the video to make its design similar to the grid items,which have the same border when hovered over. What I also found to be a nice touch is that the subtitles from the video have also orange in addition to white and this was a nice coincidence that makes the video match not only to the content of the page, but also to its design.
+    * I have added an orange border to the video to make its design similar to the grid items,which have the same border when hovered over. What I found to be a nice touch is that the video subtitles have also orange in addition to white and this was a nice coincidence that makes the video match not only to the content of the page, but also to its design.
   
 - Contact-Us page:
   
@@ -136,7 +136,7 @@ I have used the same fonts *Montserrat* and *Roboto*, as well as all the four co
 ## Edits
 ***
 
-* During the development of this project I have made some changes in the approach of the implementation of my layout ideas. In the begining I have used the float property for the header and the contact page, but as the work on my project was advancing, I have discovered that this approach was tedious and unproductive, for what I was trying to achieve, so I have changed it, using the flexbox model. This enabled me to obtain easier the desired result and to be able to create the layout changes for the responsive design effortless. 
+* During the development of this project I have made some changes in the approach of the implementation of my layout ideas. In the begining I have used the float property for the header and the contact page, but as the work on my project was advancing, I have discovered that this approach was tedious and unproductive for what I was trying to achieve, so I have changed it, using the flexbox model. This enabled me to obtain the desired result easier and to be able to create the layout changes for the responsive design effortless. 
 
 * During the entire project I have played around with different layout options, experimenting and changing the style of some elements, including the font-size, or the size of the input elements, in order to improve the design and the accessibility.  Whenever I have made such a change, I was always aware of the consistency and symmetry of my layout and I have implemented that change to all the similar elements, to maintain the harmony of the site. All the changes can be tracked in my commit history.  
 
@@ -168,7 +168,7 @@ The reports generated by *Lighthouse* are the following:
 
 ### Fixed issues
 
-* One issue that I have only noticed on a wider screen 21:9, was that the image on the contact-us page was not maintaining its aspect ratio. It was stretching, from heading to the footer, ocupying the white margings that I had set. This problem was solved after changing the display propetry of the div containing the image and the form, from inline to flex. That still displayed the image and the form next to each other, but adding some flex properties and a max-width, I managed to make the image and the form grow and shrink symmetrically and proportional on each screen width, including the wide screen, mainteining their aspect-ratio.
+* One issue that I have only noticed on a wider screen 21:9, was that the image on the contact-us page was not maintaining its aspect ratio. It was stretching, from the heading to the footer, ocupying the white margings that I had set. This problem was solved after changing the display propetry of the div containing the image and the form, from inline to flex. That still displayed the image and the form next to each other and adding some flex properties and a max-width, I managed to make the image and the form grow and shrink symmetrically and proportional on each screen width, including the wide screen, mainteining their aspect-ratio.
 
 * When I added the hover-over effect to the grid gallery items (which contain each 2 divs: the image and the description box), namely the orange border, I have noticed that the images would zoom out a bit, overlap the border and have a double border. After checking with *DevTools* activating and deactivating various properties, I have realized that the problem was caused by the property *border: 5px solid #ff852e* that I set for the grid item when hovered over. The images were supposed to have no border and the grid item was already having a border. I only wanted to add the change of color effect for the item border, when hovered over and this property was somehow adding an extra border to the image only. So I have replaced that property with *border-color: #ff852e* and it worked.
 
