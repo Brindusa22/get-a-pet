@@ -189,3 +189,43 @@ There were no unfixed issues left.
   * Once the main branch has been selected, the page was automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
  The live link can be found here: https://brindusa22.github.io/get-a-pet/
+ 
+
+ ## Credits
+ ***
+ 
+ ### Media 
+ 
+  * All the photos were taken from [Pexels](https://www.pexels.com/search/dogs/).
+  
+  * The logo was created with [Canva](https://www.canva.com/design/DAFqTTjRUH4/PY4jYRVwv6xeJcIdyLgqqA/edit).
+
+  * The icons were taken from [Fontawesome](https://fontawesome.com/).
+
+  * The embeded video is from YouTube: [Video](https://www.youtube.com/watch?v=7Zxm2wcgeYI).
+  
+  * The fonts were imported from [Google Fonts](https://fonts.google.com/).
+ 
+ ### Implementation
+
+* Explanations on how to implement the grid gallery I found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout#gutters).
+
+* I have read more about the Flexbox model [here](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties).
+  
+* I have done more reaserch abut the burger button without JavaSript [here](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/).
+  
+### Content
+
+  I have found design inspiration on these websites:
+   
+   <https://uk.rolda.org/adopt-a-dog/>
+
+   <https://animalhaven.org/adopt/dogs/>
+
+   <https://www.animal-happyend.ch/die-hunde/alle-hunde>
+
+## Acknowledgments
+***
+I would like to express my gratitude and a special tanks to my mentor Rahul Lakhanpal, for supporting and encouraging me and for his good advice and suggestions that helped me improve my project.
+
+   
